@@ -1,0 +1,24 @@
+{
+  "name": "koa-f1",
+  "version": "1.0.0",
+  "description": "build website or api with koa faster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "server"
+  ],
+  "author": "Leo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-json-error": "^3.1.2",
+    "koa-router": "^7.4.0",
+    "merge": "^1.2.0"
+  }
+}
