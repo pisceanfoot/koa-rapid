@@ -1,5 +1,5 @@
 {
-  "name": "koa-f1",
+  "name": "koaf1",
   "version": "1.0.0",
   "description": "build website or api with koa faster",
   "main": "index.js",
