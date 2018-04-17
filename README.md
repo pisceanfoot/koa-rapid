@@ -1,22 +1,22 @@
-# koa-f1
+# koa-embed
 
 fast web service with koa buildin
 
 ## example
 
 ```
-const koaf1 = require('koaf1');
+const koaEmbed = require('koa-embed');
 
-koaf1.start({
+koaEmbed.start({
     port: 3000,
     app_route: './routes' // auto load all route files
 });
 
-koaf1.once('onListening', (port, host) => {
+koaEmbed.once('onListening', (port, host) => {
     console.log('onListening, onListening', port, host);
 });
 
-koaf1.on('onError', (err) => {
+koaEmbed.on('onError', (err) => {
     console.log('test_server', err);
 });
 
@@ -25,8 +25,8 @@ koaf1.on('onError', (err) => {
 ### route file example
 
 ```
-const Koaf1 = require('koaf1');
-let router = Koaf1.router();
+const koaEmbed = require('koaEmbed');
+let router = koaEmbed.router();
 
 router.get('/hello', async function (ctx, next) {
     ctx.json({hello: 'x'});

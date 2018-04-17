@@ -1,5 +1,5 @@
 {
-  "name": "koaf1",
+  "name": "koa-embed",
   "version": "1.0.0",
   "description": "build website or api with koa faster",
   "main": "index.js",

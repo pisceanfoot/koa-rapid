@@ -1,3 +1,3 @@
-var koaf1 = require('./lib/koaf1');
+var koaEmbed = require('./lib/koa-embed');
 
-module.exports = new koaf1();
+module.exports = new koaEmbed();
