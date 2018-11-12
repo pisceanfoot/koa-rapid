@@ -1,6 +1,6 @@
 {
   "name": "koa-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "build website or api with koa faster",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,7 @@
     "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
     "koa-compose": "^4.0.0",
-    "koa-json-error": "^3.1.2",
     "koa-router": "^7.4.0",
-    "merge": "^1.2.0"
+    "merge": "^1.2.1"
   }
 }
