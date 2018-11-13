@@ -3,7 +3,7 @@ const koa = require('./..');
 koa.start({
     port: 3000,
     app_route: './routes',
-    route_path: 'api'
+    route_path: '/api'
 });
 
 koa.once('onListening', (port, host) => {

@@ -1,9 +1,9 @@
-const KoaRapid = require('../..');
+const KoaRapid = require('../../../');
 
 let router = KoaRapid.router();
 
 router.get('/hello', async function (ctx, next) {
-    ctx.body = {hello: 'x-test'};
+    ctx.body = {hello: 'x-a-index'};
 });
 
 router.get('/settime_error', async function (ctx, next) {
