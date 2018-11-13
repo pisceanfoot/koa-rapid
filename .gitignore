@@ -169,3 +169,4 @@ $RECYCLE.BIN/
 .settings/
 !/bin
 nohup.out
+.vscode

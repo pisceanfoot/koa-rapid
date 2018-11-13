@@ -1,6 +1,6 @@
 {
   "name": "koa-rapid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "build website or api with koa faster",
   "main": "index.js",
   "scripts": {

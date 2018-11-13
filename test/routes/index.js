@@ -3,7 +3,7 @@ const KoaRapid = require('../..');
 let router = KoaRapid.router();
 
 router.get('/hello', async function (ctx, next) {
-    ctx.body = {hello: 'x-test'};
+    ctx.body = {hello: 'x-index'};
 });
 
 router.get('/settime_error', async function (ctx, next) {
