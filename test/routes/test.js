@@ -1,6 +1,6 @@
-const KoaEmbed = require('../..');
+const KoaRapid = require('../..');
 
-let router = KoaEmbed.router();
+let router = KoaRapid.router();
 
 router.get('/hello', async function (ctx, next) {
     ctx.body = {hello: 'x'};

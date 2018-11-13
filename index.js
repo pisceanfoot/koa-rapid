@@ -1,3 +1,3 @@
-var koaEmbed = require('./lib/koa-embed');
+var koaRapid = require('./lib/koa-rapid');
 
-module.exports = new koaEmbed();
+module.exports = new koaRapid();
