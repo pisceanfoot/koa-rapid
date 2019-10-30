@@ -1,3 +1,3 @@
-var koaRapid = require('./lib/koa-rapid');
+var koaRapid = require('./lib/koa-rapid')
 
-module.exports = new koaRapid();
+module.exports = new koaRapid()
